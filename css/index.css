@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #2b2b2b;
+    background-color: #f7f5f1;
+}
+.hero {
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-hero {
+    background-image:
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+        url("../assets/img/dcsg.jpg");
+}
+
+.journey-hero {
+    background-image:
+        linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)),
+        url("../assets/img/winding road.jpg");
+}
+
+.resume-hero {
+    background-image:
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        url("PASTE-YOUR-RESUME-IMAGE-URL-HERE");
+}
+
+
+
+.hero-overlay {
+    color: white;
+    max-width: 900px;
+    padding: 40px;
+    transform: translateY(-25pt)
+}
+
+.hero h1 {
+    font-size: 3.3rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.hero h2 {
+    font-size: 1.9rem;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    font-size: 1.0rem;
+    letter-spacing: .5px;
+}
+
+
+nav {
+    background-color: #ffffff;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+nav a {
+    color: #1f3d4d;
+    text-decoration: none;
+    margin: 0 22px;
+    font-size: .95rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+main {
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 0 30px;
+}
+
+section {
+    margin-bottom: 55px;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    color: #1f3d4d;
+    margin-bottom: 18px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.card-row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    background-color: white;
+    padding: 28px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.08);
+}
+
+.info-card h3 {
+    color: #1f3d4d;
+    font-size: 1.3rem;
+}
+.journey-card {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.08);
+}
+
+.journey-card h3 {
+    color: #1f3d4d;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.journey-card p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+.journey-hero p {
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+.resume-hero {
+    background-image:
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        url("https://t4.ftcdn.net/jpg/02/40/94/45/360_F_240944542_QMxydSiJhTJeeA74Na06PY2YRKaIGtUX.jpg");
+}
+.education-hero {
+    background-image:
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        url("../assets/img/books2.jpg");
+}
